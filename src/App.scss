@@ -1,0 +1,192 @@
+body {
+    background-color: #2387db;
+    color: #eeeeee;
+};
+
+img {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    margin-right: 10px; /* Add spacing between logo and text */
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 0; /* Stick to the top of the viewport */
+    background-color: #3498db;
+    z-index: 100; /* Ensure it appears above other content */
+    padding: 10px;
+    box-shadow: 0 2px 4px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    
+    .logo {
+    display: flex;
+    align-items: center;
+    }
+
+    img {
+        border-radius: 50%;
+    }
+
+    .menu {
+        display: flex;
+        gap: 20px; /* Add spacing between menu items */
+        margin-left: 40px;
+
+        .bi.bi-alarm{
+            margin-top: 17px;
+            }
+    }
+    
+    .icons {    
+        display: flex;
+        gap: 10px; /* Add spacing between icons */
+        margin-left: auto; /* Push to the right */
+        margin-right: 20px;
+        }
+    
+    .input {
+        display: flex;
+        align-items: center;
+            
+        input {
+            padding: 10px;
+            font-size: 15px;
+            border: 1px solid #ccc; /* Add border for input */
+            border-radius: 5px; /* Add border radius */
+            margin: 10px;
+            }
+        }
+        
+    .some, .bi {
+        font-size: 20px; /* Adjust font size */
+        cursor: pointer;
+    }
+}
+
+.new {
+
+    width: 70%;
+
+    h2 {
+      text-align: left;
+      margin-bottom: -20px;
+    }
+
+    .all {
+      text-align: right;
+      margin-top: -25px;
+      cursor: pointer;
+    }
+  
+    ul {
+      display: flex;
+      overflow-x: auto;  // Enable horizontal scrolling
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      white-space: nowrap; // Prevent items from wrapping to the next line
+  
+      li {
+        display: inline-flex; // Ensures items remain in a row
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+        img {
+          width: 200px;
+          height: auto;
+          margin-bottom: 10px;
+        }
+  
+        div {
+          text-align: center;
+  
+          h3 {
+            margin: 5px 0;
+          }
+  
+          p {
+            margin: 2px 0;
+          }
+        }
+      }
+    }
+}
+ 
+.dayChapter {
+
+    position: absolute;
+    left: 69%;
+    margin-top: -393px;
+
+    ul {
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        img {
+            height: auto;
+            width: 97%;
+        }
+
+        li {
+            list-style-type: none;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        h3, p {
+            margin: 5px 0;
+        }
+    }
+}
+
+.updated {
+    width: 25%;
+    position: absolute;
+    left: 73%;
+    margin-top: -50%;
+
+    ul {
+      max-height: 400px; // Set a fixed height for the list
+      overflow-y: auto; // Enable vertical scrolling
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  
+      li {
+        display: flex;
+        flex-direction: column; // Arrange items vertically
+        align-items: center;
+        margin: 10px 0; // Space between items
+        border: 1px solid #ccc;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+  
+      img {
+        width: 100px;
+        height: auto;
+        margin-bottom: 10px;
+      }
+  
+      div {
+        text-align: center;
+  
+        p {
+          margin: 2px 0;
+        }
+      }
+    }
+  }
+  
+.space {
+    margin-top: 500px;
+}
